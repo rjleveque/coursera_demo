@@ -20,7 +20,8 @@ plots: solution.txt
 	@echo 
 	@echo Plotting results...
 	python plot_solution.py
-	open pcolor.png
+	@open ../../jacobi2d/pcolor.png
+	@echo open pcolor.png
 
 clean:
 	rm -f *.o *.exe
